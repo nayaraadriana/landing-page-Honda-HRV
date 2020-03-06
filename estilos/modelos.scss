@@ -1,0 +1,54 @@
+.title-padrao{
+    @include title-padrao;
+    color: $primaria;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.MD-lista{
+    @include margem-geral;
+
+    @media screen and (min-width: 1170px){
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    
+}
+
+.MD-lista__box{
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: $cinza-claro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: 1170px) {
+        width: 25%;
+        background-color: $branco;
+    }
+
+
+}
+
+
+.detalhes-modelos{
+    padding: 1rem;
+    padding-left: 2rem;
+    list-style-type: disc;
+    color: $cinza-escuro;
+    font-family: $font-padrao;
+    font-size: 0.75rem;
+    
+}
+
+
+.detalhes-modelos__item{
+    padding-bottom: 1rem;
+    
+}
+

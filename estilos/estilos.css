@@ -1,0 +1,279 @@
+html {
+  font-size: 16px; }
+
+@media screen and (min-width: 1170px) {
+  .container {
+    max-width: 1170px;
+    margin: 0 auto; } }
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 1rem; }
+  @media screen and (min-width: 1170px) {
+    .topo {
+      align-items: center;
+      flex-wrap: nowrap;
+      padding: 1rem; } }
+
+.logo__img {
+  display: block;
+  width: 10rem;
+  height: auto;
+  margin-left: 1rem; }
+  @media screen and (min-width: 1170px) {
+    .logo__img {
+      align-self: stretch; } }
+
+.btn-cotacao {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: #CC0000;
+  border: none;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  margin-right: 1rem; }
+  @media screen and (min-width: 1170px) {
+    .btn-cotacao {
+      flex-wrap: nowrap;
+      order: 1; } }
+
+.box-info-contato {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #F1F2F2;
+  padding: 1rem;
+  margin-top: 1rem; }
+  @media screen and (min-width: 1170px) {
+    .box-info-contato {
+      background-color: #ffffff;
+      padding: 0;
+      justify-content: end; } }
+
+.box-info-contato__item {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #5C5C5C; }
+  @media screen and (min-width: 1170px) {
+    .box-info-contato__item {
+      padding-right: 4rem; } }
+
+.box-info-contato__nome {
+  font-size: 0.75rem;
+  padding-bottom: 0.5rem; }
+
+.box-info-contato__telefone {
+  color: #CC0000;
+  font-weight: 700; }
+
+.banner-principal__img {
+  width: 100%; }
+
+.title-form {
+  background-color: #CC0000;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  border-radius: 4px 4px 0 0; }
+
+.corpo-form {
+  background-color: #F1F2F2;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  border-radius: 0 0 4px 4px; }
+
+.corpo-form_label {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.75rem;
+  color: #B2B2B2; }
+
+.corpo-form_item {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #B2B2B2;
+  box-sizing: border-box;
+  padding: 0.8rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  color: #5C5C5C; }
+  .corpo-form_item::placeholder {
+    color: #B2B2B2; }
+
+.corpo-form__textarea {
+  margin-bottom: 0.3rem;
+  width: 100%;
+  height: 6rem;
+  border-radius: 4px;
+  border: 1px solid #B2B2B2;
+  box-sizing: border-box; }
+
+.corpo-form_text-check {
+  color: #5C5C5C;
+  margin-bottom: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.75rem; }
+
+.corpo-form__btn-enviar {
+  width: 100%;
+  margin-top: 1rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #CC0000;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700; }
+
+.title-padrao {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  padding-bottom: 1rem;
+  color: #CC0000;
+  text-align: center;
+  padding-bottom: 1rem;
+  margin-top: 2rem; }
+
+.MD-lista {
+  margin-right: 1rem;
+  margin-left: 1rem; }
+  @media screen and (min-width: 1170px) {
+    .MD-lista {
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; } }
+
+.MD-lista__box {
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  background-color: #F1F2F2;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media screen and (min-width: 1170px) {
+    .MD-lista__box {
+      width: 25%;
+      background-color: #ffffff; } }
+
+.detalhes-modelos {
+  padding: 1rem;
+  padding-left: 2rem;
+  list-style-type: disc;
+  color: #5C5C5C;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.75rem; }
+
+.detalhes-modelos__item {
+  padding-bottom: 1rem; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding-top: 2rem; }
+
+.box-chamada {
+  position: relative; }
+
+.box-chamada__dinamico {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  box-sizing: border-box; }
+  @media screen and (min-width: 768px) {
+    .box-chamada__dinamico {
+      width: 30%;
+      position: absolute; } }
+  @media screen and (min-width: 1170px) {
+    .box-chamada__dinamico {
+      padding-top: 6rem;
+      padding-left: 6rem; } }
+
+.title-padrao__banner {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  padding-bottom: 1rem;
+  color: #CC0000; }
+
+.box-texto__banner {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  color: #5C5C5C; }
+  @media screen and (min-width: 768px) {
+    .box-texto__banner {
+      color: #ffffff; } }
+
+.banner-dinamico__img {
+  width: 100%;
+  padding-top: 1rem; }
+  @media screen and (min-width: 900px) {
+    .banner-dinamico__img {
+      display: block; } }
+
+.container-diferenciais {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto; }
+
+@media screen and (min-width: 768px) {
+  .container-diferenciais__img {
+    display: block;
+    width: 50%;
+    right: 0;
+    padding: 4rem; } }
+
+.box-chamada-diferenciais {
+  background-color: #CC0000;
+  box-sizing: border-box;
+  padding: 1rem; }
+  @media screen and (min-width: 768px) {
+    .box-chamada-diferenciais {
+      width: 50%;
+      right: 0;
+      padding: 4rem; } }
+
+.title-padrao__diferenciais {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  padding-bottom: 1rem;
+  color: #ffffff; }
+
+.texto-padrao__diferenciais {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ffffff; }
+
+.btn-cotacao__diferenciais {
+  background-color: #ffffff;
+  color: #CC0000; }
+
+/*# sourceMappingURL=estilos.css.map */

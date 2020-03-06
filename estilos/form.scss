@@ -1,0 +1,83 @@
+.title-form{
+    background-color: $primaria;
+    font-family: $font-padrao;
+    color: $branco;
+    font-weight: 700;
+    text-align: center;
+
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    @include margem-geral;
+    border-radius: $raio $raio 0 0;
+}
+
+.corpo-form{
+    background-color: $cinza-claro;
+    @include margem-geral;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; 
+    border-radius: 0 0 $raio $raio ;   
+}
+
+
+
+.corpo-form_label{
+    font-family: $font-padrao;
+    font-size: 0.75rem ;
+    color: $cinza-medio;
+    
+}
+
+
+.corpo-form_item{
+    width: 100%;
+    @include borda-redonda;
+    border: 1px solid $cinza-medio;
+    box-sizing: border-box;
+    padding: 0.8rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    color: $cinza-escuro;
+
+    &::placeholder{
+        color: $cinza-medio;
+    }
+
+
+}
+
+.corpo-form__textarea{
+    margin-bottom: 0.3rem;
+    width: 100%;
+    height: 6rem;
+    @include borda-redonda;
+    border: 1px solid $cinza-medio;
+    box-sizing: border-box;
+
+}
+
+
+.corpo-form_text-check{
+    color: $cinza-escuro;
+    margin-bottom: 1rem;
+    font-family: $font-padrao;
+    font-size: 0.75rem;
+}
+
+
+.corpo-form__btn-enviar{
+    width: 100%;
+    margin-top: 1rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    border: none;
+    @include borda-redonda;
+    background-color: $primaria;
+    color: $branco;
+    font-family: $font-padrao;
+    font-weight: 700;
+
+}

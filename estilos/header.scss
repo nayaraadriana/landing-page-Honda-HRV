@@ -1,0 +1,98 @@
+.container{
+       @include mq-desktop-quebra;
+
+}
+
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+
+    @media screen and (min-width: 1170px) {
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 1rem;
+    }  
+        
+}
+
+.logo__img {
+        display: block;
+        width: 10rem;
+        height: auto;
+        margin-left: 1rem;
+
+        @media screen and (min-width: 1170px){
+            align-self: stretch;
+        }
+}
+   
+
+.btn-cotacao{
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: $primaria;
+    border: none;
+    @include borda-redonda;
+    font-family: $font-padrao;
+    font-size: 1rem;
+    color: $branco;
+    margin-right: 1rem;
+
+    @media screen and (min-width: 1170px) {
+        flex-wrap: nowrap;
+        order: 1;
+    
+    }
+
+
+}
+
+
+.box-info-contato{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: $cinza-claro;
+    padding: 1rem;
+    margin-top: 1rem;
+
+    @media screen and (min-width: 1170px) {
+        background-color: $branco;
+        padding: 0;
+        justify-content: end;
+        
+    
+    }
+
+}
+
+
+.box-info-contato__item{
+    text-align: center;
+    font-family: $font-padrao;
+    color: $cinza-escuro;
+
+    @media screen and (min-width: 1170px){
+        padding-right: 4rem;
+
+    }
+
+       
+}
+
+.box-info-contato__nome{
+    font-size: 0.75rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.box-info-contato__telefone{
+        color: $primaria;
+        font-weight: 700;
+        
+}
